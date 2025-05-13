@@ -1,0 +1,222 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.turter.water_app_mobile.androidApp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:8:5-67
+11-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:8:22-64
+12
+13    <queries>
+13-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:10:5-18:15
+14        <intent>
+14-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:11:9-17:18
+15            <action android:name="android.intent.action.VIEW" />
+15-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:12:13-65
+15-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:12:21-62
+16
+17            <category android:name="android.intent.category.BROWSABLE" />
+17-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:14:13-74
+17-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:14:23-71
+18
+19            <data android:scheme="https" />
+19-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:16:13-44
+19-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:16:19-41
+20        </intent>
+21    </queries>
+22
+23    <permission
+23-->[androidx.core:core:1.15.0] C:\Users\Daria\.gradle\caches\8.13\transforms\42d9eb8faaf682ee1a9497fb01979029\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+24        android:name="org.turter.water_app_mobile.androidApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.15.0] C:\Users\Daria\.gradle\caches\8.13\transforms\42d9eb8faaf682ee1a9497fb01979029\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.15.0] C:\Users\Daria\.gradle\caches\8.13\transforms\42d9eb8faaf682ee1a9497fb01979029\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="org.turter.water_app_mobile.androidApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.15.0] C:\Users\Daria\.gradle\caches\8.13\transforms\42d9eb8faaf682ee1a9497fb01979029\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.15.0] C:\Users\Daria\.gradle\caches\8.13\transforms\42d9eb8faaf682ee1a9497fb01979029\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:5:5-22:19
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.15.0] C:\Users\Daria\.gradle\caches\8.13\transforms\42d9eb8faaf682ee1a9497fb01979029\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:21:9-65
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:22:9-54
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:6:9-43
+36        android:label="WaterAppMobile"
+36-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:7:9-39
+37        android:testOnly="true"
+38        android:theme="@android:style/Theme.Material.NoActionBar"
+38-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:8:9-66
+39        android:usesCleartextTraffic="true" >
+39-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:9:9-44
+40        <activity
+40-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:11:9-21:20
+41            android:name="org.turter.water_app_mobile.AppActivity"
+41-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:12:13-40
+42            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+42-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:13:13-87
+43            android:exported="true"
+43-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:16:13-36
+44            android:launchMode="singleInstance"
+44-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:14:13-48
+45            android:windowSoftInputMode="adjustPan" >
+45-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:15:13-52
+46            <intent-filter>
+46-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:17:13-20:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:18:17-69
+47-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:18:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:19:17-77
+49-->C:\Users\Daria\WaterAppMobile\composeApp\src\androidMain\AndroidManifest.xml:19:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[org.jetbrains.compose.components:components-resources-android:1.8.0-rc01] C:\Users\Daria\.gradle\caches\8.13\transforms\c6c2e37a914a14f4d7aa91dd44f7e24b\transformed\library-release\AndroidManifest.xml:8:9-13:20
+54            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
+54-->[org.jetbrains.compose.components:components-resources-android:1.8.0-rc01] C:\Users\Daria\.gradle\caches\8.13\transforms\c6c2e37a914a14f4d7aa91dd44f7e24b\transformed\library-release\AndroidManifest.xml:9:13-82
+55            android:authorities="org.turter.water_app_mobile.androidApp.resources.AndroidContextProvider"
+55-->[org.jetbrains.compose.components:components-resources-android:1.8.0-rc01] C:\Users\Daria\.gradle\caches\8.13\transforms\c6c2e37a914a14f4d7aa91dd44f7e24b\transformed\library-release\AndroidManifest.xml:10:13-84
+56            android:enabled="true"
+56-->[org.jetbrains.compose.components:components-resources-android:1.8.0-rc01] C:\Users\Daria\.gradle\caches\8.13\transforms\c6c2e37a914a14f4d7aa91dd44f7e24b\transformed\library-release\AndroidManifest.xml:11:13-35
+57            android:exported="false" >
+57-->[org.jetbrains.compose.components:components-resources-android:1.8.0-rc01] C:\Users\Daria\.gradle\caches\8.13\transforms\c6c2e37a914a14f4d7aa91dd44f7e24b\transformed\library-release\AndroidManifest.xml:12:13-37
+58        </provider>
+59
+60        <activity
+60-->[androidx.compose.ui:ui-tooling-android:1.8.0-rc03] C:\Users\Daria\.gradle\caches\8.13\transforms\845f771bbb80cbc9d1fb07913b49203a\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+61            android:name="androidx.compose.ui.tooling.PreviewActivity"
+61-->[androidx.compose.ui:ui-tooling-android:1.8.0-rc03] C:\Users\Daria\.gradle\caches\8.13\transforms\845f771bbb80cbc9d1fb07913b49203a\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+62            android:exported="true" />
+62-->[androidx.compose.ui:ui-tooling-android:1.8.0-rc03] C:\Users\Daria\.gradle\caches\8.13\transforms\845f771bbb80cbc9d1fb07913b49203a\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+63        <activity
+63-->[androidx.compose.ui:ui-test-manifest:1.8.0-rc03] C:\Users\Daria\.gradle\caches\8.13\transforms\98f91a770f15d8b3399fddbc064ec1ad\transformed\ui-test-manifest-1.8.0-rc03\AndroidManifest.xml:23:9-26:79
+64            android:name="androidx.activity.ComponentActivity"
+64-->[androidx.compose.ui:ui-test-manifest:1.8.0-rc03] C:\Users\Daria\.gradle\caches\8.13\transforms\98f91a770f15d8b3399fddbc064ec1ad\transformed\ui-test-manifest-1.8.0-rc03\AndroidManifest.xml:24:13-63
+65            android:exported="true"
+65-->[androidx.compose.ui:ui-test-manifest:1.8.0-rc03] C:\Users\Daria\.gradle\caches\8.13\transforms\98f91a770f15d8b3399fddbc064ec1ad\transformed\ui-test-manifest-1.8.0-rc03\AndroidManifest.xml:25:13-36
+66            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+66-->[androidx.compose.ui:ui-test-manifest:1.8.0-rc03] C:\Users\Daria\.gradle\caches\8.13\transforms\98f91a770f15d8b3399fddbc064ec1ad\transformed\ui-test-manifest-1.8.0-rc03\AndroidManifest.xml:26:13-76
+67        <activity
+67-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:23:9-35:20
+68            android:name="org.publicvalue.multiplatform.oidc.appsupport.HandleRedirectActivity"
+68-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:24:13-96
+69            android:exported="true"
+69-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:25:13-36
+70            android:launchMode="singleTop" >
+70-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:26:13-43
+71            <intent-filter>
+71-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:27:13-34:29
+72                <action android:name="android.intent.action.VIEW" />
+72-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:12:13-65
+72-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:12:21-62
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:30:17-76
+74-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:30:27-73
+75                <category android:name="android.intent.category.BROWSABLE" />
+75-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:14:13-74
+75-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:14:23-71
+76
+77                <data android:scheme="water.app.mobile://callback" />
+77-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:16:13-44
+77-->[io.github.kalinjul.kotlin.multiplatform:oidc-appsupport-android:0.12.3] C:\Users\Daria\.gradle\caches\8.13\transforms\cd09ee084bdbc41527bf0105397ff62c\transformed\oidc-appsupport-release\AndroidManifest.xml:16:19-41
+78            </intent-filter>
+79        </activity>
+80
+81        <service
+81-->[androidx.room:room-runtime-android:2.7.1] C:\Users\Daria\.gradle\caches\8.13\transforms\7a236ee3848a34374d818dcba4c08fa5\transformed\room-runtime-release\AndroidManifest.xml:24:9-28:63
+82            android:name="androidx.room.MultiInstanceInvalidationService"
+82-->[androidx.room:room-runtime-android:2.7.1] C:\Users\Daria\.gradle\caches\8.13\transforms\7a236ee3848a34374d818dcba4c08fa5\transformed\room-runtime-release\AndroidManifest.xml:25:13-74
+83            android:directBootAware="true"
+83-->[androidx.room:room-runtime-android:2.7.1] C:\Users\Daria\.gradle\caches\8.13\transforms\7a236ee3848a34374d818dcba4c08fa5\transformed\room-runtime-release\AndroidManifest.xml:26:13-43
+84            android:exported="false" />
+84-->[androidx.room:room-runtime-android:2.7.1] C:\Users\Daria\.gradle\caches\8.13\transforms\7a236ee3848a34374d818dcba4c08fa5\transformed\room-runtime-release\AndroidManifest.xml:27:13-37
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Daria\.gradle\caches\8.13\transforms\f90d1b87c5e852cd5ccc144368c223c0\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Daria\.gradle\caches\8.13\transforms\f90d1b87c5e852cd5ccc144368c223c0\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+88            android:authorities="org.turter.water_app_mobile.androidApp.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Daria\.gradle\caches\8.13\transforms\f90d1b87c5e852cd5ccc144368c223c0\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Daria\.gradle\caches\8.13\transforms\f90d1b87c5e852cd5ccc144368c223c0\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Daria\.gradle\caches\8.13\transforms\f90d1b87c5e852cd5ccc144368c223c0\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Daria\.gradle\caches\8.13\transforms\f90d1b87c5e852cd5ccc144368c223c0\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Daria\.gradle\caches\8.13\transforms\f90d1b87c5e852cd5ccc144368c223c0\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.9.0-beta01] C:\Users\Daria\.gradle\caches\8.13\transforms\7f4e17ff5cf089feb57e8f582b256471\transformed\lifecycle-process-2.9.0-beta01\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.9.0-beta01] C:\Users\Daria\.gradle\caches\8.13\transforms\7f4e17ff5cf089feb57e8f582b256471\transformed\lifecycle-process-2.9.0-beta01\AndroidManifest.xml:30:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.9.0-beta01] C:\Users\Daria\.gradle\caches\8.13\transforms\7f4e17ff5cf089feb57e8f582b256471\transformed\lifecycle-process-2.9.0-beta01\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.3.0] C:\Users\Daria\.gradle\caches\8.13\transforms\d8eea3a34985cc15023305aaff68d443\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:29:13-31:52
+97                android:name="com.russhwolf.settings.SettingsInitializer"
+97-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.3.0] C:\Users\Daria\.gradle\caches\8.13\transforms\d8eea3a34985cc15023305aaff68d443\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:30:17-74
+98                android:value="androidx.startup" />
+98-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.3.0] C:\Users\Daria\.gradle\caches\8.13\transforms\d8eea3a34985cc15023305aaff68d443\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:31:17-49
+99            <meta-data
+99-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+100-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
+101                android:value="androidx.startup" />
+101-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
+102        </provider>
+103
+104        <receiver
+104-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
+105            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+105-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
+106            android:directBootAware="false"
+106-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
+107            android:enabled="true"
+107-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
+108            android:exported="true"
+108-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
+109            android:permission="android.permission.DUMP" >
+109-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
+111                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
+111-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
+114                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
+114-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
+117                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
+117-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
+120                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+120-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
+120-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Daria\.gradle\caches\8.13\transforms\535a27e8b1222c35edeed40106a509ab\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
+121            </intent-filter>
+122        </receiver>
+123    </application>
+124
+125</manifest>
